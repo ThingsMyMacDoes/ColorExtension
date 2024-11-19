@@ -1,0 +1,67 @@
+body {
+  background-color: #2c2c2c; /* Default dark background */
+  color: #ffffff; /* Default white text color */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for theme change */
+}
+
+.setting-container {
+  background-color: #1e1e1e; /* Default dark background for containers */
+  padding: 15px;
+  border-radius: 0px;
+  margin-bottom: 20px; /* Space between containers */
+  transition: background-color 0.3s; /* Smooth transition for theme change */
+}
+
+.setting-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.setting-options-row {
+  display: flex;
+  gap: 30px; /* Space between inline options */
+}
+
+.setting-option {
+  display: flex;
+  align-items: center;
+}
+
+.setting-option input[type="radio"] {
+  margin-right: 10px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color-square {
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #ffffff; /* Default color */
+}
+
+.color-square[data-color="color1"] { background-color: #ff6961; } /* Red */
+.color-square[data-color="color2"] { background-color: #ffb347; } /* Orange */
+.color-square[data-color="color3"] { background-color: #fdfd96; } /* Yellow */
+.color-square[data-color="color4"] { background-color: #77dd77; } /* Green */
+.color-square[data-color="color5"] { background-color: #aec6cf; } /* Blue */
+.color-square[data-color="color6"] { background-color: #cfcfc4; } /* Gray */
