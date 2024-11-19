@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="setting-container">
+    <div class="setting-header">Color Themes</div>
+    <div class="setting-options-row">
+      <label class="setting-option">
+        <input type="radio" name="theme" value="light" onclick="changeTheme('light')"> Light Theme
+      </label>
+      <label class="setting-option">
+        <input type="radio" name="theme" value="dark" onclick="changeTheme('dark')" checked> Dark Theme
+      </label>
+    </div>
+  </div>
+  
+  <div class="setting-container">
+    <div class="setting-header">High Contrast</div>
+    <div class="color-options">
+      <label class="color-option">
+        <span class="color-square" data-color="color1"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color1')"> yellow
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color2"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color2')"> blue
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color3"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color3')"> Option 3
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color4"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color4')"> Option 4
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color5"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color5')"> Option 5
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color6"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color6')"> Option 6
+      </label>
+    </div>
+  </div>
+  
+  <div class="setting-container">
+     <div class="setting-header">Deuteranopia Green-Blind</div>
+    <div class="color-options">
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color7')"> Option 1
+        <span class="color-square" data-color="color7"></span>
+      </label>
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color8')"> Option 2
+        <span class="color-square" data-color="color8"></span>
+      </label>
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color9')"> Option 3
+        <span class="color-square" data-color="color9"></span>
+      </label>
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color10')"> Option 4
+        <span class="color-square" data-color="color10"></span>
+      </label>
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color11')"> Option 5
+        <span class="color-square" data-color="color11"></span>
+      </label>
+      <label class="color-option">
+        
+        <input type="radio" name="textColor" onclick="setTextColor('color12')"> Option 6
+        <span class="color-square" data-color="color12"></span>
+      </label>
+    </div>
+  </div>
+  
+  <div class="setting-container">
+     <div class="setting-header">Protanopia Red-Blind</div>
+    <div class="color-options">
+      <label class="color-option">
+        <span class="color-square" data-color="color1"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color1')"> Option 1
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color2"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color2')"> Option 2
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color3"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color3')"> Option 3
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color4"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color4')"> Option 4
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color5"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color5')"> Option 5
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color6"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color6')"> Option 6
+      </label>
+    </div>
+  </div>
+  
+  <div class="setting-container">
+     <div class="setting-header">Trianopia Blue-Blind</div>
+    <div class="color-options">
+      <label class="color-option">
+        <span class="color-square" data-color="color1"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color1')"> Option 1
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color2"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color2')"> Option 2
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color3"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color3')"> Option 3
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color4"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color4')"> Option 4
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color5"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color5')"> Option 5
+      </label>
+      <label class="color-option">
+        <span class="color-square" data-color="color6"></span>
+        <input type="radio" name="textColor" onclick="setTextColor('color6')"> Option 6
+      </label>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
